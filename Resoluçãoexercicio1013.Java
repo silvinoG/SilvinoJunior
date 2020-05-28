@@ -19,7 +19,7 @@ public class MyClass {
      int maiorab = (a + b + Math.abs(a - b)) /2;
      int maiorabc = (maiorab + c + Math.abs(maiorab - c)) / 2;
      
-     System.out.println("eh o maior: "+ maiorabc);
+     System.out.println(maiorabc + " eh o maior");
      
     }
 }
