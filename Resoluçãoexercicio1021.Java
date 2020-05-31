@@ -5,57 +5,66 @@ public class MyClass {
     
     Scanner sc = new Scanner(System.in);
    
-    double valor = sc.nextDouble();
+    double valorinformado = sc.nextDouble();
+    int valor = 0;
     
     System.out.println("NOTAS");
         
-        valor = (int) valor / 100;
+        valor = (int) valorinformado / 100;
     System.out.printf("%d nota (s) de R$ 100.00%n", valor);
-        valor = valor % 100.0;
-        valor = (int) valor / 50;
-    System.out.printf("%d nota (s) de R$ 50.00%n", valor);
-        valor = valor % 50.0;
-        valor = (int) valor / 25;
-    System.out.printf("%d nota (s) de R$ 25.00%n", valor);
-        valor = valor % 25.0;
-        valor = (int) valor / 20;
-    System.out.printf("%d nota (s) de R$ 20.00%n", valor);
-        valor = valor % 20.0;
-        valor = (int) valor / 10;
-    System.out.printf("%d nota (s) de R$ 10.00%n", valor);
-        valor = valor % 10.0;
-        valor = (int) valor / 5;
-    System.out.printf("%d nota (s) de R$ 5.00%n", valor);
-        valor = valor % 5.0;
-        valor = (int) valor / 2;
-    System.out.printf("%d nota (s) de R$ 2.00%n", valor);
-        valor = valor % 2.0;
+        valorinformado = valorinformado % 100.0;
         
-        valor = valor * 100.0;
+        valor = (int) valorinformado / 50;
+    System.out.printf("%d nota (s) de R$ 50.00%n", valor);
+        valorinformado = valorinformado % 50.0;
+        
+        valor = (int) valorinformado / 20;
+    System.out.printf("%d nota (s) de R$ 20.00%n", valor);
+        valorinformado = valorinformado % 20.0;
+        
+        valor = (int) valorinformado / 10;
+    System.out.printf("%d nota (s) de R$ 10.00%n", valor);
+        valorinformado = valorinformado % 10.0;
+        
+        valor = (int) valorinformado / 5;
+    System.out.printf("%d nota (s) de R$ 5.00%n", valor);
+        valorinformado = valorinformado % 5.0;
+        
+        valor = (int) valorinformado / 2;
+    System.out.printf("%d nota (s) de R$ 2.00%n", valor);
+        valorinformado = valorinformado % 2.0;
+        
+        valorinformado = valorinformado * 100.0;
         
     System.out.println("MOEDAS");
        
-        valor = (int) valor / 100;
+        valor = (int) valorinformado / 100;
     System.out.printf("%d moeda (s) de R$ 1.00%n", valor);
-        valor = valor / 100.0;
-        valor = (int) valor % 50;
+        valorinformado = valorinformado / 100.0;
+        
+        valor = (int) valorinformado / 50;
     System.out.printf("%d moeda (s) de R$ 0.50%n", valor);
-        valor = valor % 50.0;
-        valor = (int) valor / 25;
+        valorinformado = valorinformado % 50.0;
+        
+        valor = (int) valorinformado / 25;
     System.out.printf("%d moeda (s) de R$ 0.25%n", valor);
-        valor = valor % 25.0;
-        valor = (int) valor / 20;
+        valorinformado = valorinformado % 25.0;
+        
+        valor = (int) valorinformado / 20;
     System.out.printf("%d moeda (s) de R$ 0.20%n", valor);
-        valor = valor % 20.0;
-        valor = (int) valor / 10;
+        valorinformado = valorinformado % 20.0;
+        
+        valor = (int) valorinformado / 10;
     System.out.printf("%d moeda (s) de R$ 0.10%n", valor);
-        valor = valor % 10.0;
-        valor = (int) valor / 5;
+        valorinformado = valorinformado % 10.0;
+        
+        valor = (int) valorinformado / 5;
     System.out.printf("%d moeda (s) de R$ 0.05%n", valor);
-        valor = valor % 5.0;
-        valor = (int) valor / 1;
+        valorinformado = valorinformado % 5.0;
+        
+        valor = (int) valorinformado / 1;
     System.out.printf("%d moeda (s) de R$ 0.01%n", valor);
-        valor = valor % 1.0;
+        valorinformado = valorinformado % 1.0;
         
     }
 }
