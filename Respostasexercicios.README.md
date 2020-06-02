@@ -25,18 +25,14 @@ Palídromo é uma palavra que pode ser lida indiferentemente, da esquerda para a
 9 - Descreva o Binômio de Newton.
 É qualquer binômio elevado a um número N em que N é o número natural. Definimos como binômio o polinômio que possui dois termos. Basta realizar a multiplicação do binômio por ele mesmo utilizando a propriedade de distributiva.
 
-10 Descreva o algoritmo que calcule o MMC.
+10 - Descreva o algoritmo que calcule o MMC.
 Basta implementar o algoritmo de Euclides e a formula do calculo MMC eficientemente e sem a necessidade de realizar a fatoração dos números.
 
 11 - Descreva o algoritmo que calcule o MDC.
 Basta implementar o algoritmo de Euclides e a formula MDC, o procedimento é também conhecido como processo das divisões sucessivas, pois é a partir de sucessivas divisões que ele e executado.
 
 12 - Descreva o algoritmo de números perfeitos.
-
-
-
-
-
+Basta criar a variável para determinar o valor, faça o programa percorrer o números e em seguida fazer a soma dos valores, se o número encontrado for perfeito imprima a mensagem "Numeros perfeitos", se não, imprima a mensagem "Este número não é perfeito".
 
 13 - Descreva o algoritmo de números primos e o crivo desenvolvido por Eratóstenes.
 Algoritmo de números primos se baseia numa peneira, ele vai testando se um número é primo e, se for elimina todos os seus multiplos.
@@ -59,63 +55,15 @@ Algoritmo de Dijkstra soluciona o problema do caminho mais curto num grafo com a
 É um algoritmo utilizado para posicionar websites entre os resultados de suas buscas. O PageRank mede a importância de uma página contabilizando a quantidade e qualidade de links apontando para ela.
 
 19 - Descreva o que é um algoritmo determinístico e probabilístico (conceitue ,também, o que é uma algoritmo que tenha seu pior caso e melhor caso).
-Determinístico é um algoritmo em que,
+Determinístico é um algoritmo em que, dada uma certa entrada, ela produzirá sempre a mesma saída, com a máquina responsável sempre passando pela mesma seqência de estados.
+Probabilístico é um algoritmo que utiliza a probabilidade como parte de sua lógica. Isso significa que a máquina que implementa o algoritmo de ve deve acessar um gerador de números pseudo-aleatórios.
+Pior caso e o melhor caso expressa a quantidade de recurso usado nesse algoritmo,  nom mínimo, no máximo em média, o recurso considerado é o tempo de execução e a quantidade de memória usada.
 
+20 - O que é um Algoritmo Genético?
+São uma classe particular de algoritmos evolutivos que usam técnicas inspiradas pela biologia evolutiva como hereditariedade, mutação, seleção natural e recombinação.
 
+21 - Descreva a cadeia de Markov.
+É um caso particular de processo estocásticos com estados discretos com a propriedade de que a distribuição de probabilidade do próximo estado depende apenas do estado atual e não na sequência de eventos que procederam. Cadeias de Markov têm muitas aplicações como modelos estatísticos de processos do mundo real.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+22 - O que significa dizer que um algoritmo ou uma teoria é o estado da arte em seu contexto?
+O estado da arte indica, o ponto em que o produto em questão deixa de ser um projeto técnico para se tornar uma obra-prima.
