@@ -1,2 +1,0 @@
-# SilvinoJunior
-Códigos de algoritmos
