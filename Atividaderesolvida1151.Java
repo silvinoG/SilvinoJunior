@@ -8,7 +8,7 @@ public class MyClass {
     int a = 0;
     int b = 1;
     int c = 0;
-    
+        
     n = sc.nextInt();
 
     for(i=1; i<n; i++) { 
