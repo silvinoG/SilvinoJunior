@@ -5,23 +5,23 @@ public class main {
     
     Scanner sc = new Scanner(System.in);
      
-     int x, z;
-     int soma, contagem;
+    int x, z;
+    int s, c;
      
      x = sc.nextInt();
      z = sc.nextInt();
      z = sc.nextInt();
      
-     while (z<=x);
+    while (z <= x);
      
-     soma = contagem = 0;
+     s = c = 0;
      
-    while (soma < z){
-        soma += x;
-        x++;
-        contagem++;
+    while (s < z){
+        s += x;
+        x = x + 1;
+        c = c + 1;
         }
      
-        System.out.printf("%d\n", contagem);
+        System.out.printf("%d\n", c);
     }
 }
