@@ -10,15 +10,15 @@ public class MyClass {
     
     while (c >= 0){
     
-    c = sc.nextInt();
+        c = sc.nextInt();
 
-        if (c >= 0) {
-            b+=c;
-            a++;
+    if (c >= 0) {
+        b += c;
+        a = a + 1;
     }
 }
-        c=b/a;
+        c = b / a;
         
-        System.out.printf("%.2f", c);
+     System.out.printf("%.2f", c);
     }
 }
