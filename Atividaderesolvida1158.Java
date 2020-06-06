@@ -19,7 +19,7 @@ public class MyClass {
     X = sc.nextInt();
     Y = sc.nextInt();
         
-        if(X%2==1){
+        if( X % 2 == 1){
         c = 0;
     for(a=1; a<=Y; a++)
     {
@@ -29,11 +29,11 @@ public class MyClass {
         System.out.printf("%d\n", c);
     }else{
         
-        X++;
+        X = X + 1;
         c = 0;
     for(b=1; b<=Y; b++){
         c += X;
-        X+=2;
+        X += 2;
     }    
         System.out.printf("%d\n", c);
     }
