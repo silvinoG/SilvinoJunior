@@ -15,7 +15,5 @@ public class MyClass {
     B = sc.nextInt();
     
         System.out.println("SOMA = " + (A + B));
-        
-     System.out.println("--------------------"); 
     }
 }
