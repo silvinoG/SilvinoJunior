@@ -15,7 +15,5 @@ public class MyClass {
     B = sc.nextInt();
     
         System.out.println("PROD = " + (A * B));
-        
-     System.out.println("--------------------"); 
     }
 }
