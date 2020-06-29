@@ -16,7 +16,5 @@ public class MyClass {
         B = sc.nextInt();
     
         System.out.println("X = " + (A + B));
-    
-        System.out.println("----------------------");
     }
 }
