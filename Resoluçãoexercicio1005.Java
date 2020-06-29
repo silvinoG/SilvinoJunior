@@ -6,7 +6,7 @@ public class MyClass {
     
     double A = sc.nextDouble();
     double B = sc.nextDouble();
-    double media = ((A * 3.5) + (B * 7.5)) / 11.0;
+    double media = ((A * 3.5) + (B * 7.5)) / 11;
     
     System.out.printf("MEDIA = %.5f%n", media);
     
