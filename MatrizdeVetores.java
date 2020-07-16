@@ -17,8 +17,7 @@ public class MyClass {
     n [1][1] = 2.2;
     n [1][2] = 3.4;
     n [1][3] = 8.0;
-   
-    
+        
     for(int i=0; i<n.length; i++){
         //System.out.print(n[i] +" ");
     
