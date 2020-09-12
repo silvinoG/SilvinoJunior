@@ -2,30 +2,29 @@ import java.util.Scanner;
 public class MyClass {
     public static void main(String args[]) {
     
-    Scanner sc = new Scanner(System.in); 
+    Scanner sc = new Scanner (System.in);
     
-    int vA;
-    int vB;
-    int vC;
-    int vD;
+    int A;
+    int B;
+    int C;
+    int D;
+    int CD;
+    int AB;
     
-    System.out.println("Digite valor de A: ");
-        vA = sc.nextInt();
+    A = sc.nextInt();
+    B = sc.nextInt();
+    C = sc.nextInt();
+    D = sc.nextInt();
     
-    System.out.println("Digite valor de B: ");
-        vB = sc.nextInt();
+    CD = C + D;
+    AB = A + B;
     
-    System.out.println("Digite valor de C: ");
-        vC = sc.nextInt();
-    
-    System.out.println("Digite valor de D: ");
-        vD = sc.nextInt();
-   
-    
-    if (vB > vC && vD > vA && vC + vD > vA + vB & vC > 0 && vD > 0 && vA % 2 == 0) {
-        System.out.println("Valores aceitos.");
-    }else{
-        System.out.println("Valores não aceitos.");
+    if(B > C && D > A && CD > AB && C > 0 && D > 0){
+        if(A == 2);
+
+    System.out.println("Valores aceitos");
+    }else
+    System.out.println("Valores nao aceitos");
+        
     }
-    }
-}    
+}
