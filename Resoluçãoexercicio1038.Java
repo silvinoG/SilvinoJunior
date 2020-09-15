@@ -1,35 +1,35 @@
-import java.io.IOException;
 import java.util.Scanner;
-public class MyClass {
-    public static void main(String args[]) throws IOException {
+public class Main {
+ 
+    public static void main(String[] args){
+Scanner sc = new Scanner (System.in);
+
+    int c;
+    int q;
+    double s= 0;
     
-    Scanner sc = new Scanner(System.in); 
+    c = sc.nextInt();
+    q = sc.nextInt();
     
-    int X;
-    int Y;
-    double soma;
-    
-    System.out.println("Digite o código do produto: ");
-        X = sc.nextInt();
-    
-    System.out.println("Digite a quantidade de produtos: ");
-        Y = sc.nextInt();
-      
-      switch (X) {
-      
-      case 1: {
-        soma = Y * 4.00;break;
-    } case 2: {
-        soma = Y * 4.50;break;
-    } case 3: {
-        soma = Y * 5.00;break;
-    } case 4: {
-        soma = Y * 2.00;break;
-    } case 5: {
-        soma = Y * 1.50;break;
-    }
-      default: soma = 0;
-    }
-    System.out.println(String.format("Total: R$ %.2f", soma));
+    if(c == 1){
+        s = q * 4.00;
+        System.out.printf("Total: R$ %.2f\n", s);
+    }else
+    if(c == 2){
+        s = q * 4.50;
+        System.out.printf("Total: R$ %.2f\n", s);
+    }else
+    if(c == 3){
+        s = q * 5.00;
+        System.out.printf("Total: R$ %.2f\n", s);
+    }else
+    if(c == 4){
+        s = q * 2.00;
+        System.out.printf("Total: R$ %.2f\n", s);
+    }else
+    if(c == 5){
+        s = q * 1.50;
+        System.out.printf("Total: R$ %.2f\n", s);
+        } 
     }
 }
