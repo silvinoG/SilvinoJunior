@@ -1,0 +1,32 @@
+import java.util.Scanner;
+public class MyClass {
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+      int hi;
+      int hf;
+      int mi;
+      int mf;
+      int h = 0;
+      int m = 0;
+      
+    hi = sc.nextInt();
+    mi = sc.nextInt();
+    hf = sc.nextInt();
+    mf = sc.nextInt();
+    
+    h = hf - hi;
+    m = mf - mi;
+    
+    if(h < 0){
+        h = 24 + (hf - hi);
+    }
+        if(m < 0){
+            m = 60 + (mf - mi);
+            h--;
+        }
+        if(hi == hf && mi == mf)
+    System.out.println("O JOGO DUROU 24 HORA(S) E 0 MINUTO(S)");
+    else
+    System.out.println("O JOGO DUROU "+ h + " HORA(S) E " + m + " MINUTO(S)");
+    }
+}
