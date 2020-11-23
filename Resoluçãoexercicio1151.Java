@@ -11,17 +11,17 @@ public class MyClass {
         
     n = sc.nextInt();
 
-    for(i=1; i<n; i++) { 
-            if(i%2==1){
+    for(i = 1; i < n; i++) { 
+            if(i % 2==1){
         System.out.printf("%d ", c);
             c = a + b;
-            a= c;
+            a = c;
         }else {
-            if(i==2){
+            if(i == 2){
         System.out.printf("%d ", c);
         
         }else {
-            if(i%2==0){
+            if(i % 2==0){
         System.out.printf("%d ", c);
             c = a + b;
             b = c;
