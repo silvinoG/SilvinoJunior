@@ -19,6 +19,6 @@ public class main {
         }
         
         X = sc.nextInt();
-     }
+        }
     }
 }
