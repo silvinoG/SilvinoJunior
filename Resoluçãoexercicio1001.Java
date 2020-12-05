@@ -1,20 +1,17 @@
 import java.util.Scanner;
-
-public class MyClass {
+public class Main  {
     public static void main(String args[]) {
-    String nome = " X ";
-    int A;
-    int B;
-        
+      
     Scanner sc = new Scanner (System.in);
     
-        System.out.println("Digite o valor A ");
-        A = sc.nextInt();
-        
+    int A;
+    int B;
+    int S;
     
-        System.out.println("Digite o valor B ");
-        B = sc.nextInt();
+    A = sc.nextInt();
+    B = sc.nextInt();
     
-        System.out.println("X = " + (A + B));
+    S = A + B;
+    System.out.println("X = "+ S);
     }
 }
