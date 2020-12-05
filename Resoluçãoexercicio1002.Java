@@ -1,14 +1,18 @@
 import java.util.Scanner;
-public class MyClass {
-    public static void main(String args[]) {
+public class Main {
+ 
+    public static void main(String[] args) throws IOException {
+ Scanner sc = new Scanner (System.in);
     
-    Scanner sc = new Scanner(System.in);
-    
-    double raio = sc.nextDouble();
+    double r;
     double pi = 3.14159;
-    double area = pi * raio * raio;
+    double a;
     
-    System.out.printf("A = %.4f%n", area);
-    
+   r = sc.nextDouble();
+   
+   a = pi * r * r;
+   
+   System.out.printf("A=%.4f\n", a);
     }
+ 
 }
